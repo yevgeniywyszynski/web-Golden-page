@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Style Script', cursive;
+  font-size: 25px;
+  color: #eabc23;
+}
+
+.navigation {
+  padding: 0%;
+  margin: 0%;
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+.navigation li a {
+  color: white;
+  text-decoration: none;
+}
+
+.intro {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.intro h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: white;
+}
+
+.intro h5 {
+  font-size: 25px;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.intro button {
+  background-color: #eabc23;
+  border: none;
+  padding: 20px 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.intro button:hover {
+  background-color: green;
+}
+
+.splash {
+  background-image: url(https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.services .icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid green;
+}
+
+.services .icon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: green;
+}
+
+.services .title {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.services .subtitle {
+  font-style: italic;
+  color: #9E9E9E;
+}
+
+.services .elements {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+.services .elements .element {
+  flex: 1;
+  padding: 0 25px;
+}
+
+/*Our Works*/
+.container-box {
+  background-color: #F7F7F7;
+  padding: 70px 0;
+}
+
+.row {
+  display: flex;
+  flex: 0 0 50%;
+  position: relative;
+  margin: 0 0 96px 0;
+}
+
+@media (max-width: 767px) {
+  .navigation {
+    line-height: 25px;
+  }
+  .navigation li {
+    display: block;
+  }
+  .intro h1 {
+    font-size: 35px;
+  }
+  .intro h5 {
+    font-size: 20px;
+  }
+  .intro button {
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLFNBQVM7QUNEYjs7QURJQTtFQUNJLGlCQUFpQjtFQUNqQixjQUFjO0FDRGxCOztBRElBO0VBQ0ksYUFBYTtFQUNiLDhCQUE4QjtFQUM5QixtQkFBbUI7QUNEdkI7O0FESUE7RUFDSSxvQ0FBb0M7RUFDcEMsZUFBZTtFQUNmLGNBcEJrQjtBQ21CdEI7O0FESUE7RUFDSSxXQUFXO0VBQ1gsVUFBVTtFQUNWLHFCQUFxQjtBQ0R6Qjs7QURJQTtFQUNJLHFCQUFxQjtFQUNyQixrQkFBa0I7RUFDbEIseUJBQXlCO0FDRDdCOztBRElBO0VBQ0ksWUFBWTtFQUNaLHFCQUFxQjtBQ0R6Qjs7QURJQTtFQUNJLGtCQUFrQjtFQUNsQixnQkFBZ0I7QUNEcEI7O0FESUE7RUFDSSxlQUFlO0VBQ2YsY0FBYztFQUNkLFlBQVk7QUNEaEI7O0FESUE7RUFDSSxlQUFlO0VBQ2YsU0FBUztFQUNULHlCQUF5QjtFQUN6QixZQUFZO0FDRGhCOztBRElBO0VBQ0kseUJBM0RrQjtFQTREbEIsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2YseUJBQXlCO0FDRDdCOztBREpBO0VBT1EsdUJBQXVCO0FDQy9COztBREdBO0VBQ0ksc0lBQXNJO0VBQ3RJLHNCQUFzQjtFQUN0Qiw0QkFBNEI7RUFDNUIsMkJBQTJCO0FDQS9COztBREdBO0VBQ0ksa0JBQWtCO0VBQ2xCLGVBQWU7QUNBbkI7O0FERkE7RUFJUSxXQUFXO0VBQ1gsWUFBWTtFQUNaLGNBQWM7RUFDZCxrQkFBa0I7RUFDbEIsdUJBQXVCO0FDRS9COztBRFZBO0VBVVksYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixtQkFBbUI7RUFDbkIsV0FBVztFQUNYLFlBQVk7RUFDWixlQUFlO0VBQ2YsWUFBWTtBQ0l4Qjs7QURwQkE7RUFvQlEsZUFBZTtFQUNmLHlCQUF5QjtFQUN6QixtQkFBbUI7QUNJM0I7O0FEMUJBO0VBeUJRLGtCQUFrQjtFQUNsQixjQUFjO0FDS3RCOztBRC9CQTtFQTZCUSxhQUFhO0VBQ2IsNkJBQTZCO0VBQzdCLGlCQUFpQjtBQ016Qjs7QURyQ0E7RUFpQ1ksT0FBTztFQUNQLGVBQWU7QUNRM0I7O0FESEEsWUFBQTtBQUVBO0VBQ0kseUJBQXlCO0VBQ3pCLGVBQWU7QUNLbkI7O0FERkE7RUFDSSxhQUFhO0VBQ2IsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQixrQkFBa0I7QUNLdEI7O0FERkE7RUFDSTtJQUNJLGlCQUFpQjtFQ0t2QjtFRE5FO0lBR1EsY0FBYztFQ014QjtFREZFO0lBRVEsZUFBZTtFQ0d6QjtFRExFO0lBS1EsZUFBZTtFQ0d6QjtFRENFO0lBQ0ksa0JBQWtCO0lBQ2xCLGVBQWU7RUNDckI7QUFDRiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

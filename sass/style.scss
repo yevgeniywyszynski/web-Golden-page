@@ -1,0 +1,151 @@
+$color-orange: #eabc23;
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Style Script', cursive;
+    font-size: 25px;
+    color: $color-orange;
+}
+
+.navigation {
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.intro h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    color: white;
+}
+
+.intro h5 {
+    font-size: 25px;
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+.intro button {
+    background-color: $color-orange;
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    &:hover {
+        background-color: green;
+    }
+}
+
+.splash {
+    background-image: url(https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.services {
+    text-align: center;
+    padding: 70px 0;
+    .icon {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 2px solid green;
+        i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            font-size: 30px;
+            color: green;
+        }
+    }
+    .title {
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    .subtitle {
+        font-style: italic;
+        color: #9E9E9E;
+    }
+    .elements {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+        .element {
+            flex: 1;
+            padding: 0 25px;
+        }
+    }
+}
+
+/*Our Works*/
+
+.container-box {
+    background-color: #F7F7F7;
+    padding: 70px 0;
+}
+
+.row {
+    display: flex;
+    flex: 0 0 50%;
+    position: relative;
+    margin: 0 0 96px 0;
+}
+
+@media(max-width:767px){
+    .navigation{
+        line-height: 25px;
+        li{
+            display: block;
+        }
+    }
+
+    .intro{
+        h1{
+            font-size: 35px;
+        }
+        h5{
+            font-size: 20px;
+        }
+    }
+
+    .intro button{
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+}
