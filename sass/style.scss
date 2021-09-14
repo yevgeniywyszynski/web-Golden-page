@@ -115,16 +115,40 @@ body {
 
 /*Our Works*/
 
-.container-box {
-    background-color: #F7F7F7;
-    padding: 70px 0;
-}
+.portfolio {
+    background-color: #fff;
+    padding: 96px 0;
+    text-align: center;
+    .title h2 {
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .title p {
+        color: #888;
+        margin: 5px 0 0 0;
+    }
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .item-wrapper {
+        width: 400px;
+        margin-bottom: 40px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        p {
+            padding-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+        .item {
+            background-color: red;
+        }
 
-.row {
-    display: flex;
-    flex: 0 0 50%;
-    position: relative;
-    margin: 0 0 96px 0;
+    }
 }
 
 @media(max-width:767px){
