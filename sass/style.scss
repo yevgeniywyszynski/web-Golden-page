@@ -120,17 +120,17 @@ body {
     padding: 96px 0;
     text-align: center;
     .title h2 {
+        font-size: 40px;
         text-transform: uppercase;
-        margin: 0;
+        margin-bottom: 10px;
     }
     .title p {
         color: #888;
-        margin: 5px 0 0 0;
+        margin-bottom: 40px;
     }
     .items {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
     }
     .item-wrapper {
         width: 400px;
@@ -145,7 +145,7 @@ body {
             object-fit: cover;
         }
         .item {
-            background-color: red;
+            background-color:#C5C5BB;
         }
 
     }
