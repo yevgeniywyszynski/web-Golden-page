@@ -162,6 +162,24 @@ body {
     background-color: #C5C5BB;
   }
   
+  /* footer */
+  .name-footer {
+    font-size: 16px;
+  }
+  .icon-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    .name-footer {
+      margin-right: 350px;
+    }
+    .icons {
+      margin-bottom: 20px;
+      margin-top: 20px;
+      font-size: 40px;
+    }
+  }
+
   @media (max-width: 767px) {
     .navigation {
       line-height: 25px;
@@ -179,19 +197,16 @@ body {
       padding: 15px 30px;
       font-size: 15px;
     }
-  }
 
-  /* footer */
-  .footer-title {
-    display: flex;
-    justify-content: center;
-  }
+    .services .elements {
+      flex-direction: column;
+    }
+    
+    .icon-footer {
+      flex-direction: column;
+    }
 
-  .icon-footer {
-    display: flex;
-    justify-content: center;
-    .icons {
-      margin-bottom: 20px;
-      font-size: 40px;
+    .icon-footer .name-footer {
+      margin-right: 0;
     }
   }
